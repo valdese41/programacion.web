@@ -1,32 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS básico</title>
-  <style>
-    /* Aquí puedes incluir tus reglas de estilo CSS */
-    body {
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      color: blue;
-    }
-    p {
-      color: black;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TimeToRead</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/carrusel.css"> 
+    <link rel="stylesheet" href="css/fondoTitulos.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/letras.css">
+    <link rel="stylesheet" href="css/fondo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&display=swap" rel="stylesheet">
 
-<h1>CSS básico</h1>
 
-<p>CSS (Hojas de Estilo en Cascada) es el código que usas para dar estilo a tu página web. CSS Básico te lleva a través de lo que tú necesitas para empezar. Contestará a preguntas del tipo: ¿Cómo hago mi texto rojo o negro? ¿Cómo hago que mi contenido se muestre en tal y tal lugar de la pantalla? ¿Cómo decoro mi página web con imágenes de fondo y colores?</p>
+  </head>
+  
 
-<h2>Entonces ¿qué es CSS, realmente?</h2>
-<p>Como HTML, CSS (Cascading Style Sheets) u Hojas de estilo en cascada en español, no es realmente un lenguaje de programación, tampoco es un lenguaje de marcado. Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML. Por ejemplo, para seleccionar todos los elementos de párrafo en una página HTML y volver el texto dentro de ellos de color rojo, has de escribir este CSS:</p>
+  <!-- interfaz de arriba (Menu) -->
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-transparent" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="img/logo1.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="inicio.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Login/Register</a>
+            </li>
+            <li class="titulo">
+              <h1>¡Time To Read!</h1>
+              
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<img src="img/ejemplo2.jpg">
+    <br> 
+    <br>
 
+    <h1>CSS básico</h1>
+
+    <p>CSS (Hojas de Estilo en Cascada) es el código que usas para dar estilo a tu página web. CSS Básico te lleva a través de lo que tú necesitas para empezar. Contestará a preguntas del tipo: ¿Cómo hago mi texto rojo o negro? ¿Cómo hago que mi contenido se muestre en tal y tal lugar de la pantalla? ¿Cómo decoro mi página web con imágenes de fondo y colores?</p>
+
+    <h2>Entonces ¿qué es CSS, realmente?</h2>
+    <p>Como HTML, CSS (Cascading Style Sheets) u Hojas de estilo en cascada en español, no es realmente un lenguaje de programación, tampoco es un lenguaje de marcado. Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML. Por ejemplo, para seleccionar todos los elementos de párrafo en una página HTML y volver el texto dentro de ellos de color rojo, has de escribir este CSS:</p>
+
+    <img src="img/ejemplo2.jpg">
 </body>
-</html>
+
+
+</html
