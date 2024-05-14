@@ -1,0 +1,63 @@
+.contenedor{
+    display: flex;
+    width: 1080px;
+    height: 720px;
+
+}
+
+
+#titulo{
+
+    font-family: "Rowdies","Bebas Neue","sans-serif";
+    font-size: 45px;
+    text-align:center;
+    color: rgb(202, 180, 148);
+    width: 300%;
+}
+#h3{
+    font-family: "Rowdies","Bebas Neue","sans-serif";
+    font-size: 25px;
+    text-align:justify;
+    color: rgb(202, 180, 148);
+
+
+
+}
+
+.texto{
+    margin-left: 60px;
+    color:beige;
+    text-align: justify;
+    height: 300px;
+}
+
+#parrajo1{
+    width:300%;
+    
+
+
+}
+
+
+body {
+    background-color:#574944;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+    url('https://i.pinimg.com/originals/8c/b2/2d/8cb22d8ead9b13c226cbff599b35331c.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+
+}
+
+#imagen{
+
+    width: 600px ;
+    height: 300px;
+    margin-top: 800px;
+    margin-left: 300px;
+
+
+}

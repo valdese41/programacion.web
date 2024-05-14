@@ -1,0 +1,12 @@
+body {
+    background-color: #d3b2a7;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+    url('https://i.pinimg.com/originals/8c/b2/2d/8cb22d8ead9b13c226cbff599b35331c.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+
+}

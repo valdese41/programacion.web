@@ -1,0 +1,22 @@
+#titulos{
+    color: #34327C; 
+}
+
+.navbar-brand img{
+    width: 120px;
+    height: 100px;   
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2));
+    border-radius: 50%;
+    opacity: 0.8 ;
+
+}   
+
+.nav-item {
+    font-size: 18px;
+}
+
+.titulo h1 {
+    margin-left: 270px;
+  }
